@@ -4,6 +4,7 @@ import atexit
 import os
 import json
 
+#test:w !sudo tee % > /dev/null
 app = Flask(__name__, static_url_path='')
 
 db_name = 'mydb'
